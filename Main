@@ -1,0 +1,23 @@
+package Main;
+
+import java.util.Scanner;
+
+public class mainClass {
+
+	public static void main(String[] args) {
+		int num1, num2, add, subtract,multiply;
+		double divide;
+
+		System.out.println("Enter a number.");
+		Scanner tKeyboard = new Scanner(System.in);
+		num1=tKeyboard.nextInt();
+		System.out.println("Enter another number.");
+		num2=tKeyboard.nextInt();
+		add = num1+num2;
+		subtract = num1-num2;
+		multiply = num1*num2;
+		divide = num1 / num2;
+		System.out.printf("Add:%d Sub:%d Multiply:%d Divide:%f", add, subtract, multiply, divide);
+
+	}
+}
